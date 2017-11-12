@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SolicitudPoliza xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Conexion>
+        <Token>056kkhd983pdnldjJOSDIEJldi47462</Token>
+        <IP>192.168.10.11</IP>
+        <Negocio>CAINTRA</Negocio>
+    </Conexion>
+    <Generales>
+        <Plan>1</Plan>
+        <EstatusPago>1</EstatusPago>
+        <InicioVigencia>2017-09-01</InicioVigencia>
+        <Duracion>1</Duracion>
+    </Generales>
+    <Contratante>
+        <Nombre>Test Empresa</Nombre>
+        <RFC>Test RFC Empresa</RFC>
+        <CalleNumero>Test Calle Empresa</CalleNumero>
+        <Colonia>Test Colonia Empresa</Colonia>
+    </Contratante>
+    <Asegurado>
+        <Nombre>Test Nombre Pract</Nombre>
+        <RFC>Test RFC Pract</RFC>
+        <CalleNumero>Test calle 2</CalleNumero>
+        <Colonia>Test colonia Pract</Colonia>
+    </Asegurado>
+    <Beneficiarios>
+        <Beneficiario>
+            <Nombre>padre 1</Nombre>
+            <Parentesco>Padre</Parentesco>
+            <Porcentaje>60</Porcentaje>
+        </Beneficiario>
+        <Beneficiario>
+            <Nombre>madre</Nombre>
+            <Parentesco>Madre</Parentesco>
+            <Porcentaje>40</Porcentaje>
+        </Beneficiario>
+    </Beneficiarios>
+</SolicitudPoliza>
